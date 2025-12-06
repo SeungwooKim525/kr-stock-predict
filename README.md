@@ -1,10 +1,10 @@
-# 📈 주가 상승 예측 모델 - kr-stock-predict 🇰🇷
+#  주가 상승 예측 모델 - kr-stock-predict 🇰🇷
 
-해당 프로젝트는 한국 주식 데이터를 활용하여 **다음날 종가가 상승할지 여부를 예측**하는 머신러닝 분류 모델입니다.
+해당 프로젝트는 한국 주식 데이터를 활용하여 다음날 종가가 상승할지 여부를 예측하는 머신러닝 분류 모델입니다.
 
 ---
 
-## 🔍 프로젝트 개요
+##  프로젝트 개요
 
 - `X.pkl`, `y.pkl`로 구성된 전처리된 데이터를 기반으로 분류 모델 학습
 - 종가 상승 여부 (0 또는 1)를 타깃으로 설정
@@ -13,7 +13,7 @@
 
 ---
 
-## 📁 폴더 구조
+##  폴더 구조
 kr-stock-predict/
 ├── data/ # 전처리된 피처 및 라벨
 │ ├── X.pkl
@@ -25,7 +25,7 @@ kr-stock-predict/
 └── README.md
 ---
 
-## 🤖 사용한 모델
+##  사용한 모델
 
 - Logistic Regression
 - K-Nearest Neighbors (KNN, k=5)
@@ -33,7 +33,7 @@ kr-stock-predict/
 
 ---
 
-## 📊 결과 (정확도)
+## 결과 (정확도)
 
 | 모델명             | 정확도 (Accuracy) |
 |--------------------|------------------|
@@ -45,7 +45,7 @@ kr-stock-predict/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - Python (pandas, scikit-learn, joblib)
 - Jupyter Notebook
@@ -53,7 +53,7 @@ kr-stock-predict/
 
 ---
 
-## 💻 실행 방법
+##  실행 방법
 
 1. 레포지토리를 클론합니다.
 2. `data/` 폴더에 `X.pkl`, `y.pkl` 파일이 존재해야 합니다.
@@ -61,7 +61,7 @@ kr-stock-predict/
 
 ---
 
-## ⚠️ 한계 및 향후 개선 방향
+##  한계 및 향후 개선 방향
 
 - 현재 피처는 기본적인 가격 정보와 이동평균만 포함되어 있음
 - **피처 엔지니어링(RSI, 수익률, 거래량 변화 등)** 필요
@@ -69,7 +69,7 @@ kr-stock-predict/
 
 ---
 
-## 🙋‍♂️ 작성자
+##  작성자
 
 - GitHub: [SeungwooKim525](https://github.com/SeungwooKim525)
 
